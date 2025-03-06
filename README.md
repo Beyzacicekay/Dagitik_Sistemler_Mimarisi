@@ -20,3 +20,6 @@ Bu proje, Docker ve Docker Compose kullanılarak oluşturulmuş bir dağıtık s
 
 - **Redis:**  
   - Uygulama performansını artırmak için cache mekanizması sağlar.
+ 
+## Video linkine aşağıdan ulaşabilirsiniz 
+[dağıtık sistemler video link ](https://drive.google.com/file/d/1zydoaBiT6jfDIdpmwEeDs8Xz8Th1Y5v6/view?usp=drive_link)
