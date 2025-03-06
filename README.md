@@ -1,8 +1,5 @@
 # Dağıtık Sistemler
 
-Bu proje, Docker teknolojisi kullanılarak oluşturulmuş dağıtık bir sistem mimarisidir. Projede, Nginx yük dengeleyici, iki adet replikasyonlu Spring Boot uygulama sunucusu, PostgreSQL veritabanı sunucusu ve Redis cache sunucusu yer almaktadır.
-
-
 ## Proje Hakkında
 
 Bu proje, Docker ve Docker Compose kullanılarak oluşturulmuş bir dağıtık sistem mimarisidir. Temel amaç, modern uygulama geliştirme ve dağıtık sistemlerin nasıl çalıştığını göstermektir. Projede, bir Spring Boot uygulaması, PostgreSQL veritabanı, Redis cache ve Nginx yük dengeleyici bir arada çalışmaktadır.Bu proje, modern uygulama geliştirme ve dağıtık sistem mimarilerini öğrenmek amacıyla hazırlanmıştır. Docker Compose kullanılarak, tüm servisler (Nginx, Spring Boot uygulamaları, PostgreSQL ve Redis) container'lar içerisinde konfigüre edilmiştir. Ayrıca, Nginx yapılandırması ile failover mekanizması sağlanarak, herhangi bir uygulama sunucusu devre dışı kaldığında isteklerin diğer sunucuya yönlendirilmesi garanti altına alınmıştır.
